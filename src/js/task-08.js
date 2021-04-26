@@ -48,8 +48,8 @@ function onPaletteContainertClick(evt) {
   
   lightboxContainerEl.classList.add("is-open");
 
-  
-  modalImgEl.setAttribute('src', origImgEl.getAttribute('data-source'));
+  modalImgEl.src = evt.target.dataset.source;
+ 
   
 }
 
